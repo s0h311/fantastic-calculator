@@ -10,7 +10,8 @@
     "test": "vitest",
     "build": "tsup",
     "build:w": "tsup --watch",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "tsup && changeset publish"
   },
   "author": "Soheil Nazari <kontakt@soheilnazari.de>",
   "license": "Apache-2.0",

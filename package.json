@@ -1,6 +1,6 @@
 {
   "name": "fantastic-calculator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Just a lib",
   "publishConfig": {
     "access": "public"

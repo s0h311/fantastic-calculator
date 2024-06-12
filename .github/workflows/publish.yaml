@@ -23,5 +23,7 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: npm run release
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@fantastic"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

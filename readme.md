@@ -32,7 +32,13 @@ mkdir src; touch $_/index.ts
 npm pkg set type="module" main="dist/index.cjs" module="dist/index.mjs" types="dist/index.d.ts"
 ```
 
-5. Create a `tsup.config.ts`. It could look like this
+6. Make package public
+
+```bash
+npm pkg set publishConfig.access="public"
+```
+
+7. Create a `tsup.config.ts`. It could look like this
 
 ```TypeScript
 import { defineConfig } from "tsup";
